@@ -6,7 +6,7 @@
     <h1 class="card-title text-center text-white">{{Str::limit($movie->title,40)}}</h1>
     <p class="text-white text-sm mb-2 mt-auto">{{$movie->overview}}</p>
 
-    <div class="shadow-lg rounded-lg p-4">
+    <div class="bg-gray-600 shadow-lg rounded-lg p-4 mb-2">
         <p class="text-blue-800 text-sm mb-2 mt-auto font-bold">Categoria: {{$movie->category->name}}</p>
         <p class="text-blue-800 text-sm mb-2 mt-auto font-bold">Leguaje: {{$movie->original_lenguage}}</p>
         <p class="text-blue-800 text-sm mb-2 mt-auto font-bold">Clasificacion: {{$movie->clasification->name}}</p>
